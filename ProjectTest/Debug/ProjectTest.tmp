@@ -1,0 +1,160 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc\m2560def.inc</FILE>
+  <FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\LcdControl.asm</FILE>
+  <FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\KeypadControl.asm</FILE>
+  <FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\Debug\ProjectTest.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ProjectTest.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ProjectTest.map</FILE>
+  <FILE>ProjectTest.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Moving><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>11</LINE></Moving>
+  <Door><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>12</LINE></Door>
+  <TimerMoveCounter><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>13</LINE></TimerMoveCounter>
+  <TimerDoorCounter><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>14</LINE></TimerDoorCounter>
+  <MoveCounter><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>15</LINE></MoveCounter>
+  <counter><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>16</LINE></counter>
+  <keyLock><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>17</LINE></keyLock>
+  <Emergency><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>18</LINE></Emergency>
+  <currFloor><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>20</LINE></currFloor>
+  <direction><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>21</LINE></direction>
+  <state><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>22</LINE></state>
+  <RESET><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>44</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>419</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>440</LINE></EXT_INT1>
+  <TIMER0OVF><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>152</LINE></TIMER0OVF>
+  <INIT_LCD><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\LcdControl.asm</FILE><LINE>26</LINE></INIT_LCD>
+  <LCD_CMD><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\LcdControl.asm</FILE><LINE>70</LINE></LCD_CMD>
+  <SLEEP_5MS><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\LcdControl.asm</FILE><LINE>129</LINE></SLEEP_5MS>
+  <SLEEP_1MS><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\LcdControl.asm</FILE><LINE>116</LINE></SLEEP_1MS>
+  <PRINT_STRING><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\LcdControl.asm</FILE><LINE>50</LINE></PRINT_STRING>
+  <PRINT_STRING_WHILE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\LcdControl.asm</FILE><LINE>52</LINE></PRINT_STRING_WHILE>
+  <PRINT_STRING_END><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\LcdControl.asm</FILE><LINE>58</LINE></PRINT_STRING_END>
+  <LCD_DATA><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\LcdControl.asm</FILE><LINE>82</LINE></LCD_DATA>
+  <PRINT_NUM><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\LcdControl.asm</FILE><LINE>63</LINE></PRINT_NUM>
+  <LCD_WAIT><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\LcdControl.asm</FILE><LINE>95</LINE></LCD_WAIT>
+  <LCD_WAIT_LOOP><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\LcdControl.asm</FILE><LINE>101</LINE></LCD_WAIT_LOOP>
+  <DELAYLOOP_1MS><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\LcdControl.asm</FILE><LINE>121</LINE></DELAYLOOP_1MS>
+  <INIT_KEYPAD><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\KeypadControl.asm</FILE><LINE>20</LINE></INIT_KEYPAD>
+  <READ_KEYPAD><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\KeypadControl.asm</FILE><LINE>29</LINE></READ_KEYPAD>
+  <READ_KEYPAD_CLOOP><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\KeypadControl.asm</FILE><LINE>40</LINE></READ_KEYPAD_CLOOP>
+  <READ_KEYPAD_CLOOP_END><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\KeypadControl.asm</FILE><LINE>75</LINE></READ_KEYPAD_CLOOP_END>
+  <READ_KEYPAD_DELAY><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\KeypadControl.asm</FILE><LINE>47</LINE></READ_KEYPAD_DELAY>
+  <READ_KEYPAD_CLOOP_CONTINUE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\KeypadControl.asm</FILE><LINE>71</LINE></READ_KEYPAD_CLOOP_CONTINUE>
+  <READ_KEYPAD_RLOOP><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\KeypadControl.asm</FILE><LINE>58</LINE></READ_KEYPAD_RLOOP>
+  <READ_KEYPAD_RLOOP_END><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\KeypadControl.asm</FILE><LINE>69</LINE></READ_KEYPAD_RLOOP_END>
+  <READ_KEYPAD_CONVERT><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\KeypadControl.asm</FILE><LINE>79</LINE></READ_KEYPAD_CONVERT>
+  <READ_KEYPAD_EPILOGUE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\KeypadControl.asm</FILE><LINE>109</LINE></READ_KEYPAD_EPILOGUE>
+  <READ_KEYPAD_C_LETTER><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\KeypadControl.asm</FILE><LINE>91</LINE></READ_KEYPAD_C_LETTER>
+  <READ_KEYPAD_C_SYMBOL><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\KeypadControl.asm</FILE><LINE>96</LINE></READ_KEYPAD_C_SYMBOL>
+  <ADD_FLOOR><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>22</LINE></ADD_FLOOR>
+  <AF_E><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>64</LINE></AF_E>
+  <AF_EL><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>59</LINE></AF_EL>
+  <AF_IF><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>56</LINE></AF_IF>
+  <AF_EN><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>61</LINE></AF_EN>
+  <CHECK_FLOOR><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>75</LINE></CHECK_FLOOR>
+  <REMOVE_FLOOR><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>95</LINE></REMOVE_FLOOR>
+  <UPDATE_DIRECTION><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>121</LINE></UPDATE_DIRECTION>
+  <CD_L1><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>134</LINE></CD_L1>
+  <CD_L1_I_E><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>140</LINE></CD_L1_I_E>
+  <CD_L1_I><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>138</LINE></CD_L1_I>
+  <CD_L1_E><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>144</LINE></CD_L1_E>
+  <CD_I_E><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>150</LINE></CD_I_E>
+  <CD_I><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>147</LINE></CD_I>
+  <CD_E><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>194</LINE></CD_E>
+  <CD_L2><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>160</LINE></CD_L2>
+  <CD_L2_E><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>186</LINE></CD_L2_E>
+  <CD_L2_I1_E><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>171</LINE></CD_L2_I1_E>
+  <CD_L2_I1><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>168</LINE></CD_L2_I1>
+  <CD_L2_I2_L><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>180</LINE></CD_L2_I2_L>
+  <CD_L2_I2><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>176</LINE></CD_L2_I2>
+  <CD_L2_I2_E><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>183</LINE></CD_L2_I2_E>
+  <PRINT_STATE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>204</LINE></PRINT_STATE>
+  <NOT_EMERGENCY><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>223</LINE></NOT_EMERGENCY>
+  <Emr1><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>41</LINE></Emr1>
+  <Emr2><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>42</LINE></Emr2>
+  <FLOOR_PRINT><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>227</LINE></FLOOR_PRINT>
+  <PRINT_MOVE_STATUS><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>205</LINE></PRINT_MOVE_STATUS>
+  <PRINT_DOOR_STATUS><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>236</LINE></PRINT_DOOR_STATUS>
+  <PS_I><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>237</LINE></PS_I>
+  <PS_EI1><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>242</LINE></PS_EI1>
+  <PS_EI><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>249</LINE></PS_EI>
+  <PS_EI2><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>247</LINE></PS_EI2>
+  <PS_L><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>258</LINE></PS_L>
+  <PS_LE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>265</LINE></PS_LE>
+  <PS_LI><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>262</LINE></PS_LI>
+  <PS_L_E><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>269</LINE></PS_L_E>
+  <PS_L2><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>273</LINE></PS_L2>
+  <PS_L2_E><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>278</LINE></PS_L2_E>
+  <PRINT_STATE_EPILOGUE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>283</LINE></PRINT_STATE_EPILOGUE>
+  <ARRIVE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>293</LINE></ARRIVE>
+  <A_E><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>299</LINE></A_E>
+  <A_I><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>297</LINE></A_I>
+  <DEPART><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>306</LINE></DEPART>
+  <CYCLE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>321</LINE></CYCLE>
+  <INIT_STATE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>330</LINE></INIT_STATE>
+  <INIT_STATE_LOOP><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>344</LINE></INIT_STATE_LOOP>
+  <INIT_STATE_EPILOGUE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\State.asm</FILE><LINE>351</LINE></INIT_STATE_EPILOGUE>
+  <str1><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>34</LINE></str1>
+  <str2><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>35</LINE></str2>
+  <floor><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>36</LINE></floor>
+  <dOpening><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>37</LINE></dOpening>
+  <dClosing><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>38</LINE></dClosing>
+  <dOpen><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>39</LINE></dOpen>
+  <dClose><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>40</LINE></dClose>
+  <START><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>69</LINE></START>
+  <HALT><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>91</LINE></HALT>
+  <MAIN_ELSE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>105</LINE></MAIN_ELSE>
+  <MAIN_IF><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>95</LINE></MAIN_IF>
+  <MAIN_IF_END><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>123</LINE></MAIN_IF_END>
+  <EMERGENCY_TOGGLE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>130</LINE></EMERGENCY_TOGGLE>
+  <DUMMY><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>126</LINE></DUMMY>
+  <EMERGENCY_DISABLE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>144</LINE></EMERGENCY_DISABLE>
+  <EM_0><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>140</LINE></EM_0>
+  <TIMER_MOVE_END_IF><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>169</LINE></TIMER_MOVE_END_IF>
+  <TIMER_MOVE_IF><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>164</LINE></TIMER_MOVE_IF>
+  <SWAP_MOVE_STATUS><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>288</LINE></SWAP_MOVE_STATUS>
+  <CHK_DOOR_STATUS><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>366</LINE></CHK_DOOR_STATUS>
+  <TIMER0OVF_EPILOGUE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>173</LINE></TIMER0OVF_EPILOGUE>
+  <PRINT_FLOOR_STATUS><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>179</LINE></PRINT_FLOOR_STATUS>
+  <PRINT_FLOOR_STATUS_EPILOGUE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>199</LINE></PRINT_FLOOR_STATUS_EPILOGUE>
+  <PRINT_NO_MOVE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>224</LINE></PRINT_NO_MOVE>
+  <PRINT_MOVE_STATUS_EPILOGUE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>230</LINE></PRINT_MOVE_STATUS_EPILOGUE>
+  <PRINT_DOOR_OPENING><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>260</LINE></PRINT_DOOR_OPENING>
+  <PRINT_DOOR_OPEN><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>267</LINE></PRINT_DOOR_OPEN>
+  <PRINT_DOOR_CLOSING><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>274</LINE></PRINT_DOOR_CLOSING>
+  <PRINT_DOOR_STATUS_EPILOGUE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>281</LINE></PRINT_DOOR_STATUS_EPILOGUE>
+  <NO_MOVE_CHANGE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>354</LINE></NO_MOVE_CHANGE>
+  <NOT_MOVING><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>348</LINE></NOT_MOVING>
+  <STOP_AT_FLOOR><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>341</LINE></STOP_AT_FLOOR>
+  <SWAP_MOVE_STATUS_EPILOGUE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>359</LINE></SWAP_MOVE_STATUS_EPILOGUE>
+  <CHK_DOOR_NOT_MOVING><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>386</LINE></CHK_DOOR_NOT_MOVING>
+  <CHK_DOOR_END_IF><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>408</LINE></CHK_DOOR_END_IF>
+  <CHK_DOOR_OPENING><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>397</LINE></CHK_DOOR_OPENING>
+  <CHK_DOOR_OPEN><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>401</LINE></CHK_DOOR_OPEN>
+  <CHK_DOOR_CLOSING><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>405</LINE></CHK_DOOR_CLOSING>
+  <CHK_DOOR_STATUS_EPILOGUE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>412</LINE></CHK_DOOR_STATUS_EPILOGUE>
+  <EXT_INT0_EPILOGUE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>434</LINE></EXT_INT0_EPILOGUE>
+  <HOLD_OPEN_DOOR><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>453</LINE></HOLD_OPEN_DOOR>
+  <EXT_INT1_EPILOGUE><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>459</LINE></EXT_INT1_EPILOGUE>
+  <MOTOR_ON><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>464</LINE></MOTOR_ON>
+  <MOTOR_OFF><FILE>C:\Users\Jeremy\Documents\UNI Stuff\Year 3\Comp2121\ProjectTest\ProjectTest\main.asm</FILE><LINE>471</LINE></MOTOR_OFF>
+ </LABELS>
+</ASSEMBLER_INFO>
